@@ -97,13 +97,13 @@ body {
 
   #text-thirddiv{
     margin: auto;
-    top:40%;
+    top: 25%;
     position: relative;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f38ae1b8;
-    height: 45px;
-    width: 220px;
+    height: 44px;
+    width: 435px;
     text-align: center;
     border-radius: 55px;
     padding-bottom: 10px;
