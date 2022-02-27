@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+}
+
+.topnav {
+    background-color: #F7F7F7;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+    width: 100%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #f381ed;
+    color: black;
+  }
+
+  #nailinglogo {
+    width: 10vw;
+  }
+
+  #nailinglogomenu {
+    padding: 0px 0px;
+  }
+
+  #nailinglogomenu:hover {
+    background-color: #F7F7F7;
+  }
+
+  .first-image{
+    height: 15vw;
+    background-image: url("imagen1.png");
+    background-position: center; 
+    background-size: cover;
+  }
+
+  #text-firstdiv{
+    position: absolute;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 20%;
+    background: #ffffffb5;
+    /* padding-top: 22px; */
+    margin-top: 20px;
+    height: 45px;
+    width: 230px;
+    text-align: center;
+    border-radius: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .second-image{
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+  }
+
+  .second-content{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #nlogo{
+    width: 10vw;
+  }
+
+  .third-image{
+    height: 15vw;
+    background-image: url("imagen3.jpg");
+    background-position: center; 
+    background-size: cover;
+    align-items: center;
+  }
+
+  #text-thirddiv{
+    margin: auto;
+    top:40%;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f38ae1b8;
+    height: 45px;
+    width: 220px;
+    text-align: center;
+    border-radius: 55px;
+    padding-bottom: 10px;
+  }
+
+  .fourth-image{
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+  }
+
+  .fourth-content{
+    width: 80%;
+    height: 26vw;
+    background-image: url("imagenmujer.jpg");
+    background-position: center; 
+    background-size: cover;
+  }
+
+  #container-fourthdiv{
+    
+    width: 100%;
+    position: relative;
+    color: black;
+    border-radius: 55px;
+  }
+
+  #text-fourthdiv{
+    
+    width:30%;
+    margin-left: 25%;
+    top:20%;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f38ae1b8;
+    border-radius: 55px;
+    padding-left: 50px;
+    padding-bottom: 1px;
+  }
+
+  #nlogo{
+    width: 10vw;
+  }
+
+  a{
+    font-size: large;
+    font-weight: normal;
+  }
